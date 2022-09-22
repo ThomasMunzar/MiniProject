@@ -1,17 +1,26 @@
 /* The navigation bar */
-.main-header {
+header {
     background-color: rgb(218, 29, 95);
-    text-emphasis-color: black;
+    text-emphasis-color: rgb(195, 183, 183);
     font-size: larger;
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
   height:75px;
   text-align: center;
+  font-size: larger;
 
 }
-
-  
+main{
+  content:flex;
+  font-style: oblique;
+  text-align: center;
+  font-size:larger
+}
+  section{
+    font-size: large;
+    background-color: aqua;
+  }
   /* Links inside the navbar */
   .photo {
     float: center;
@@ -21,17 +30,18 @@
     padding: 14px 16px;
     text-decoration: none;
   }
-  .p{
+  p{
     text-align: center;
     font-size: larger;
+    font-style: initial;
   }
   
-  .footer {
+  footer {
     background: rgb(121, 21, 21);
     color: rgb(238, 241, 243);
     position:relative;
     text-align: center;
-    height: 75px;
+    height: 100px;
   }
   
   
